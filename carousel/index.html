@@ -6,8 +6,19 @@
     <link rel="stylesheet" href="./stylesheet.css">
   </head>
   <body>
-    <div class="slideshow-container" onclick="test()">
-      Test
+    <div class="slideshow-container">
+      <div class="pic-container visible">
+        <img class="pic" data-num="1" src="http://lorempixel.com/1600/1000/abstract/1/" alt="pic 1">
+      </div>
+      <div class="pic-container">
+        <img class="pic" data-num="2" src="http://lorempixel.com/1600/1000/abstract/2/" alt="pic 2">
+      </div>
+      <div class="pic-container">
+        <img class="pic" data-num="3" src="http://lorempixel.com/1600/1000/abstract/3/" alt="pic 3">
+      </div>
+
+      <a class="prev" href="#" onclick="plusSlides(-1)"><</a>
+      <a class="next" href="#" onclick="plusSlides(-1)">></a>
     </div>
 
     <script type="text/javascript" src="./js.js"></script>

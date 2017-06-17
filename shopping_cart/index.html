@@ -3,10 +3,34 @@
   <head>
     <meta charset="utf-8">
     <title></title>
-    <link rel="stylesheet" href="/main.css">
+    <link rel="stylesheet" href="main.css">
   </head>
   <body>
+    <nav class="navbar">
+      <section class="cart-dropdown">
+        Cart
+        <p id="cart-number">0 items</p>
+      </section>
+    </nav>
 
-    <script type="text/javascript" src="/js.js"></script>
+    <ul class="items-list">
+      <li class="cart-item" >
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61Y-vYqyqYL._AC_US218_.jpg" alt="books">
+        <p>Game of Thrones Books</p>
+        <button type="button" name="button" class="add-button" data-item="Game of Thrones Books">Add to cart</button>
+      </li>
+      <li class="cart-item">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/61-XFktCaRL._AC_US218_.jpg" alt="dvds">
+        <p>Game of Thrones DVDs</p>
+        <button type="button" name="button" class="add-button" data-item="Game of Thrones DVDs">Add to cart</button>
+      </li>
+      <li class="cart-item">
+        <img src="https://images-na.ssl-images-amazon.com/images/I/418MC9RdhPL._AC_US218_.jpg" alt="shirt">
+        <p>Game of Thrones Shirt</p>
+        <button type="button" name="button" class="add-button"  data-item="Game of Thrones Shirt">Add to cart</button>
+      </li>
+    </ul>
+
+    <script type="text/javascript" src="main.js"></script>
   </body>
 </html>
